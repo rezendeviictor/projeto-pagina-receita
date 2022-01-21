@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    }
+
+body {
+    background-color: #A6CEB6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: #F5F3F0;
+    border-radius: 30px;
+    margin: 0 30px 0 ;
+}
+
+.menu-lateral {
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 240px;
+    height: 607px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.navegacao-titulo {
+    padding: 15px 45px ;
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: rgb(119, 211, 124);
+    text-shadow: 1px 1px 8px yellowgreen;
+    font-size: 25px;
+
+}
+
+.navegacao-lista a{
+    display: flex;
+    margin: 20px 20px ;
+}
+
+.home, .recipes, .books, .blog, .subscription, .contactus {
+    margin-left: 10px;
+}
+
+.cursos {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.cursos .masterclass {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 1.5rem;
+}
+
+.cursos .by {
+    font-family: 'Katibeh', cursive;
+    font-size: 1.5rem;
+}
+
+.data {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-family: 'Katibeh', cursive;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 20px;
+    transform: rotate(3deg);
+}
+
+.inscricao {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: #FFE9A7;
+    transform: rotate(357deg);
+}
+
+.apresentacao {
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    text-align: left;
+    padding: 75px 0 0 50px;
+    box-sizing: border-box;
+    background-color: #BBDAC7;
+    border: none;
+    border-radius: 30px;
+    width: 925px;
+    height: 290px;
+    background-color: #c9fcdd;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+
+.apresentacao .titulo {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.imagem-apresentacao .imagem {
+    position: absolute;
+    width: 360px;
+    margin-top: 0;
+    top: 0;
+    left: 800px;    
+}
+
+.apresentacao .descricao {
+    font-family: 'Katibeh', cursive;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.historia-receita {
+    position: absolute;
+    box-sizing: border-box;
+    left: 350px;
+    top: 327px;
+    width: 430px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #FFECE1;
+}
+
+.historia-receita .nome-prato {
+    font-family: 'Katibeh', cursive;
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.historia-receita .historia {
+    font-family: 'Inter', sans-serif;
+    margin: 20px 170px 0 30px;
+    text-align: left;
+    size: 7px;
+}
+
+.historia-receita .imagem {
+    position: absolute;
+    width: 200px;
+    left: 245px;
+    top: 105px;
+}
+
+.quadro-receita {
+    position: absolute;
+    box-sizing: border-box;
+    left: 800px;
+    top: 327px;
+    width: 430px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #C4EFF2;
+}
+
+.ingrediente-pt1 {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.ingrediente-pt2 {
+    position: absolute;
+    left: 150px;
+    top: 40px;
+}
+
+.ingrediente-pt3 {
+    position: absolute;
+    left: 290px;
+    top: 40px;
+}
+
+.modo-de-preparo {
+    position: absolute;
+    box-sizing: border-box;
+    top: 140px;
+    margin: 0 40px 0 ;
+    text-align:justify;
+    font-size: 15px;
+}
+
+
+
+.imagem-ingrediente .imagem{
+    position: absolute;
+    width: 150px;
+    left: 350px;
+    top: 105px;
+}
+
+.quadro-receita .recipes {
+    font-family: 'Katibeh', cursive;
+    text-align: center;
+    font-size: 30px;
+}
